@@ -1,0 +1,76 @@
+:root {
+  --color-main: #2c8e99;
+  --color-secondary: white;
+  --color-bg: #232323;
+  --square-size: 100px;
+  --gap-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", Sans-serif;
+  background-color: var(--color-bg);
+}
+
+#title {
+  color: var(--color-secondary);
+  background-color: var(--color-main);
+  text-align: center;
+  padding: 1rem 0;
+  transition-duration: 500ms;
+  transition-property: background-color;
+}
+
+h1 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+
+.menu {
+  color: var(--color-main);
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 0 1rem;
+}
+
+.menu-option:hover {
+  color: var(--color-secondary);
+  background-color: var(--color-main);
+}
+
+.selected {
+  color: var(--color-secondary);
+  background-color: var(--color-main);
+}
+
+#board {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.option {
+  background-color: var(--color-main);
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  border-radius: 20%;
+  float: left;
+  transition-duration: 500ms;
+  transition-property: background-color;
+}
